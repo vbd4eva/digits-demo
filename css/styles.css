@@ -1,0 +1,99 @@
+:root {
+  /* colors */
+  --color-logo: #1e266d;
+  --color-logo-mark: #ff2e6a;
+
+  --color-text: #455880;
+  --color-white: #ffffff;
+
+  --color-accent-btn: #3751ff;
+}
+body {
+  font-family: "Cabin", sans-serif;
+  font-size: 18px;
+
+  color: var(--color-text);
+}
+a {
+  text-decoration: none;
+  color: var(--color-logo);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  max-width: 1207px;
+  display: block;
+  margin: 0 auto;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+.button {
+  font-size: 16px;
+  line-height: 2.5;
+  border: none;
+  padding: 0 16px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.button-accent {
+  color: var(--color-white);
+  background-color: #fff;
+  background-color: var(--color-accent-btn);
+}
+/* Header */
+.site-logo {
+  font-family: "Suez One", serif;
+  font-size: 31px;
+  line-height: 1;
+  color: var(--color-logo);
+}
+.site-logo--mark {
+  color: var(--color-logo-mark);
+}
+
+/* Menu */
+.menu-line {
+  display: flex;
+}
+.menu-line__link {
+  display: block;
+  margin: 0 14px;
+  padding: 0 6px;
+
+  font-size: 16px;
+  line-height: 5;
+}
+
+/* Contacts */
+.contact-us {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+.contact-us__link {
+  padding: 0 4px;
+  font-size: 16px;
+  line-height: 5;
+}
+.contact-us__btn {
+  margin-left: 30px;
+}
+
+/* header */
+.site-header {
+  display: flex;
+}
+.site-header__last {
+  margin-left: auto;
+}
+.site-header__middle {
+  margin: 0 auto;
+}
+.site-header > * {
+  outline: dotted;
+}

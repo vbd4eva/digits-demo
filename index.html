@@ -4,23 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Digits Demo & Preview</title>
-  </head>
+    <link rel="stylesheet" href="./css/modify-modern-normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&family=Suez+One&display=swap" rel="stylesheet">
+  </head>   
   <body>
     <!-- Site header -->
-    <header>
-      <p><a href="#" class="site-logo" title="go to index page">digits</a></p>
+    <header class="site-header container">
+      <a href="#" class="site-logo" title="go to index page">digits<span class="site-logo--mark">:</span></a>
 
-      <ul>
-        <li><a href="#">Homepages</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Company:</a></li>
-        <li><a href="#">Pricing</a></li>
-        <li><a href="#">Blog</a></li>
+      <ul class="site-header__middle menu-line">
+        <li><a class="menu-line__link" href="#">Homepages</a></li>
+        <li><a class="menu-line__link" href="#">Products</a></li>
+        <li><a class="menu-line__link" href="#">Company:</a></li>
+        <li><a class="menu-line__link" href="#">Pricing</a></li>
+        <li><a class="menu-line__link" href="#">Blog</a></li>
       </ul>
 
-      <p>
-        <a href="#">+00 123 456 789</a>
-        <button>Contact Us</button>
+      <p class="site-header__last contact-us">
+        <a class="contact-us__link" href="#">+00 123 456 789</a>
+        <button class="contact-us__btn button button-accent">Contact Us</button>
       </p>
     </header>
 
